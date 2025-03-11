@@ -22,10 +22,7 @@
     "build": "rollup -c rollup.config.ts --configPlugin typescript",
     "prepare": "npm run clean && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChromeDevTools/vite-plugin-devtools-json.git"
-  },
+  "repository": "ChromeDevTools/vite-plugin-devtools-json",
   "keywords": [
     "vite",
     "vite-plugin",
