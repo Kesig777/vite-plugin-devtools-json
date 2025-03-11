@@ -70,6 +70,7 @@ const plugin = (): Plugin => ({
           uuid,
         }
       };
+      res.setHeader('Content-Type', 'application/json');
       res.end(JSON.stringify(devtoolsJson, null, 2));
     });
   }
