@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bmeurer/vite-plugin-devtools-json.git"
+    "url": "git+https://github.com/ChromeDevTools/vite-plugin-devtools-json.git"
   },
   "keywords": [
     "vite",
@@ -35,9 +35,9 @@
   ],
   "author": "Benedikt Meurer <bmeurer@google.com>",
   "bugs": {
-    "url": "https://github.com/bmeurer/vite-plugin-devtools-json/issues"
+    "url": "https://github.com/ChromeDevTools/vite-plugin-devtools-json/issues"
   },
-  "homepage": "https://github.com/bmeurer/vite-plugin-devtools-json#readme",
+  "homepage": "https://github.com/ChromeDevTools/vite-plugin-devtools-json#readme",
   "license": "MIT",
   "peerDependencies": {
     "vite": "^2.7.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0"
