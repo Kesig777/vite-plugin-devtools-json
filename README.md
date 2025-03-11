@@ -11,7 +11,7 @@ This enables seamless integration with the new Chrome DevTools features
 ## Installation
 
 ```bash
-npm install -D https://github.com/ChromeDevTools/vite-plugin-devtools-json
+npm install -D vite-plugin-devtools-json
 ```
 
 ## Usage
