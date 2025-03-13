@@ -9,7 +9,7 @@ const bundle =
       const file = `dist/index.${ext}`;
 
       return defineConfig({
-        input: 'index.ts',
+        input: 'src/index.ts',
 
         output: {
           file,
