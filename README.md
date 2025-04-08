@@ -46,6 +46,9 @@ where `root` is the absolute path to your `{projectRoot}` folder, and `uuid` is
 a random v4 UUID, generated the first time that you start the Vite devserver
 with the plugin installed (it is henceforth cached in the Vite cache folder).
 
+Checkout [bmeurer/automatic-workspace-folders-vanilla] for a trivial example
+project illustrating how to use the plugin in practice.
+
 ## Publishing
 
 **Googlers:** We use [go/wombat-dressing-room](http://go/wombat-dressing-room)
@@ -54,3 +57,5 @@ for publishing.
 ## License
 
 The code is under [MIT License](LICENSE).
+
+[bmeurer/automatic-workspace-folders-vanilla]: https://github.com/bmeurer/automatic-workspace-folders-vanilla
