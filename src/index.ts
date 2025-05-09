@@ -12,7 +12,7 @@ interface DevToolsJSON {
 
 const ENDPOINT = '/.well-known/appspecific/com.chrome.devtools.json';
 
-const plugin = (): Plugin => ({
+const plugin = (options?: {uuid: string}): Plugin => ({
   name: 'devtools-json',
   enforce: 'post',
 
@@ -25,6 +25,9 @@ const plugin = (): Plugin => ({
     }
 
     const getOrCreateUUID = () => {
+      if (options?.uuid) {
+        return options.uuid;
+      }
       // Per https://vite.dev/config/shared-options.html#cachedir
       // the `config.cacheDir` can be either an absolute path, or
       // a path relative to project root (which in turn can be
