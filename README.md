@@ -30,6 +30,17 @@ export default defineConfig({
 });
 ```
 
+While the plugin can generate a uuid and save it in vite cache, you can also 
+specify it in the options like in the following:
+
+```
+  plugins: [
+    devtoolsJson({uuid "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b":}),
+    // ...
+  ]
+```
+
+
 The `/.well-known/appspecific/com.chrome.devtools.json` endpoint will serve the
 project settings as JSON with the following structure
 
